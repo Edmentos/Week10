@@ -20,4 +20,18 @@ public class CalcTest {
         newCalc = new Calculator();
         assertEquals(6,newCalc.sub(10,4));
     }
+
+    @Test
+    void testDiv()
+    {
+        newCalc = new Calculator();
+        assertEquals(3, newCalc.div(12,4));
+    }
+
+    @Test
+    void testMul()
+    {
+        newCalc = new Calculator();
+        assertEquals(20,newCalc.mul(5,4));
+    }
 }
