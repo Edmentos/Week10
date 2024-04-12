@@ -5,4 +5,9 @@ public class Calculator {
         int result = firstNum + secondNum;
         return result;
     }
+
+    public int sub(int subNum, int secondSubNum){
+        int result2 = subNum - secondSubNum;
+        return result2;
+    }
 }
