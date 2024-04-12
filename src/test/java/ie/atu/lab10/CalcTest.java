@@ -13,4 +13,11 @@ public class CalcTest {
         newCalc = new Calculator();
         assertEquals(10, newCalc.add(4,6));
     }
+
+    @Test
+    void testSub()
+    {
+        newCalc = new Calculator();
+        assertEquals(6,newCalc.sub(10,4));
+    }
 }
